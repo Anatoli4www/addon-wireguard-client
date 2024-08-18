@@ -1,6 +1,6 @@
 ---
 name: WireGuard Client Anatoli4www
-version: 0.2.2
+version: 0.2.2.1
 slug: wireguard_client
 description: Fast, modern, secure Wireguard tunnel (client)
 url: https://github.com/anatoli4www/addon-wireguard-client/tree/main/wireguard_client
@@ -55,4 +55,4 @@ schema:
       allowed_ips:
         - str
       persistent_keep_alive: int
-image: "bigmoby/{arch}-addon-wireguard-client"
+image: "jowiszbrzeczyszczykiewicz/wireguard-client"
