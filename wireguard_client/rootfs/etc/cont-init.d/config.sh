@@ -23,7 +23,7 @@ if ! bashio::fs.directory_exists '/ssl/wireguard'; then
 fi
 
 # Get interface and config file location
-interface="wg0"
+interface="wg01"
 
 config="/etc/wireguard/${interface}.conf"
 
